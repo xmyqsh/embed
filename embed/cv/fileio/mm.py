@@ -1,0 +1,7 @@
+from mmcv.fileio import *
+
+mms = [
+    'BaseStorageBackend', 'FileClient', 'load', 'dump', 'register_handler',
+    'BaseFileHandler', 'JsonHandler', 'PickleHandler', 'YamlHandler',
+    'list_from_file', 'dict_from_file'
+]
