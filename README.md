@@ -4,18 +4,14 @@ Embedding is all your need.
 # Further work
 
 ## Video
-1. The heatmap could be easily exponental averaged between frames for
+1. The embedding could be easily exponental averaged between frames for
    better tackling with occlusion.
 
 ## Lidar
 1. Lidar perception can also benefited from this architecture which make
    the appresiating `mid-fusion` scheme easy and efficient.
 
-## 3D human pose/differetiable rendering
-1. Make the expansion of 3D human pose and differetiable rendering from
-   the single object to multi-object easily.
-
-## Mul-model
+## MultiModel
 1. Unify the embedding expression between image and texture to ease and improve
    the multi-model works such as image caption and image retrial and
    multi-model comprehension.
@@ -23,7 +19,7 @@ Embedding is all your need.
 ## 3D dynamic scene generation
 1. Learning to extract an additional positional free embedding which we call it
    semantic/texture/apperance embedding.
-2. Make the scene and appearence lantent embedding code more meaningful
+2. Make the scene/thing and shape/appearence lantent embedding code more meaningful
    and releaf the buddern of the network expression and learning for `GIRAFFE`.
 
 ## Panoptic
